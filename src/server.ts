@@ -51,7 +51,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
         if (error) {
           res.status(500).send({
             success: false,
-            message: 'An error occurred while returning the filtered image.',
+            message: 'An error occurred while returning the filtered image, Please provide a valid image URL.',
             detail: `${error}`,
           });
         }
@@ -62,7 +62,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
       res.status(500).send({
         success: false,
-        message: `An error occurred while processing your image.`,
+        message: `An error occurred while processing your image, Please provide a valid image URL.`,
         detail: `${error}`,
       });
     }
