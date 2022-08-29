@@ -37,3 +37,4 @@ Don't forget you can use `eb deploy` to push changes.
 
 To access the API use this URL:
 http://udagram-project-johnmary.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://tinypng.com/images/social/website.jpg
+
